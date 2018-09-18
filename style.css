@@ -1,0 +1,233 @@
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #31708f;
+    background-color: aliceblue;
+}
+nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: #d9edf7;
+}
+.cls1 {
+	width: 100%;
+	height: 700px;
+}
+nav {
+  height: 100px;
+  background: transparent; // Transparent initial setting
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease 0.5s;
+}
+.c1 {
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	padding: 50px;
+	font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+.navbar-brand {
+  color: #fff;
+  padding: 50px;
+  font-size: 18px;
+  transition: all ease 0.5s;
+}
+.sr-only {
+	padding-top: 50px;
+}
+nav.shrink {
+  height: 40px;
+  transition: all ease 0.5s;
+  background: #262626;
+}
+nav.shrink .sr-only {
+	padding-top: 20px;
+}
+nav.shrink .c1 {
+  padding: 20px;
+  transition: all ease 0.5s;
+}
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-nav>li>a {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+b, strong {
+    font-weight: 800;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 16px;
+}
+.parallax1 {
+  background-image: url('pic1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 100%;
+  opacity: 0.85;
+}
+.clss1 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+.border1 {
+  position: relative;
+  font-size: 40px;
+  letter-spacing: 10px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 25px;
+  color: #fff;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+.anotherclass1 {
+  height: 500px;
+  text-align: center;
+  font-size: 25px;
+}
+html, body {
+  height: 100%;
+}
+.parallax2 {
+  background-image: url('pic2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  opacity: 0.70;
+}
+.clss2 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+.border2 {
+  position: relative;
+  font-size: 40px;
+  letter-spacing: 10px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 25px;
+  color: #fff;
+}
+.anotherclass2 {
+  height: 500px;
+  text-align: center;
+  font-size: 25px;
+}
+.parallax3 {
+  background-image: url('pic3.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 480px;
+  opacity: 0.75;
+}
+.clss3 {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  padding-left: 2%;
+}
+.border3 {
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 10px;
+  border: 2px solid #fff;
+  background-color: #fff;
+  padding: 25px 60px 25px 60px;
+  color: #2e2f32;
+  border-radius: 4px;
+}
+.bottom {
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  padding-left: 94%;
+}
+.cl1 {
+  padding-right: 10px;
+}
+.b1 {
+  color: #fff;
+}
+.anothercls {
+  position: absolute;
+  top: 28%;
+  width: 100%;
+  text-align: center;
+  padding-left: 31%;
+  padding-right: 10%;
+  text-align: justify;
+}
+.subcls {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 1.0px;
+  font-family: 'Playfair Display', serif;
+}
+.buttoncls {
+  text-align: center;
+  padding-top: 5%;
+}
+.btn-lg {
+    padding: 15px 60px;
+    font-size: 20px;
+    line-height: 1.3333333;
+    border-radius: 25px;
+    letter-spacing: 3px;
+}
+h3 {
+  text-align: center;
+}
+.clx1 {
+  height: 430px;
+  color: #333;
+  background-color:#eee;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+.clx2 {
+  color: #333;
+  background-color:#ddd;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+#i1 {
+  font-size: 18px;
+  margin: 0px;
+  padding-top: 4%;
+}
+.clx3 {
+  font-family: 'Playfair Display', serif;
+}
+#i2 {
+  padding-top: 3%;
+  line-height: 1.8;
+  font-size: 18px;
+}
+h3 {
+  font-size: 30px;
+}
